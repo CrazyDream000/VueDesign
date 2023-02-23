@@ -1,0 +1,94 @@
+@import './base.css';
+
+*{
+  box-sizing: border-box;
+  font-family: 'Alliance No.1';
+  font-style: normal;
+}
+#app {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+}
+
+/*Flex*/
+.f-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.f-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.f-center{
+  justify-content: center;
+  align-items: center;
+}
+
+.f-rcenter{
+  justify-content: center;
+}
+.f-ccenter{
+  align-items: center;
+}
+/*Font*/
+
+.f80{
+  font-size: 80px;
+}
+.f16{
+  font-size: 18px;
+}
+.f16{
+  font-size: 16px;
+}
+
+.f-dark-blue{
+  color:#320A8D;
+}
+.f-light-blue{
+  color:#6309FF;;
+}
+
+.ftb{
+  font-weight: 700;
+}
+
+/*margin*/
+
+.mt5{
+  margin-top: 5px;
+}
+.mt10{
+  margin-top: 10px;
+}
+.mt15{
+  margin-top: 15px;
+}
+.m1{
+  margin-top: 5px;
+}
+.m1{
+  margin-top: 5px;
+}
+.m1{
+  margin-top: 5px;
+}
