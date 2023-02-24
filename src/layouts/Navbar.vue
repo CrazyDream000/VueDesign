@@ -1,10 +1,10 @@
-<script>
+<script setup>
+    import HumanButtom from "../components/Button.vue"
 </script>
 
 <template>
   <div class="navbar-container">
         <img class="logo" alt="Vue logo" src="@/assets/HMark.png" />
-        
         
         <div class="navbar-menu-container">
             <div class="navbar-menu f-row f-center">
@@ -13,7 +13,7 @@
                 <div class="navbar-menu-item f16 f-dark-blue ftb"> Ecosystem </div>
                 <div class="navbar-menu-item f16 f-dark-blue ftb"> Team </div>
                 <div class="navbar-menu-item f16 f-dark-blue ftb"> Resources </div>
-                <button class="join-btn f-dark-blue f16 ftb">Join</button>
+                <HumanButtom class="join-btn f-dark-blue f16 ftb" value="Join"/>
             </div>
         </div>
   </div>
@@ -41,9 +41,5 @@
         width:144px;
         height:56px;
         margin-left: 68px;
-        background: linear-gradient(145.2deg, #F0F2FC -4.32%, #FFFFFF 61.97%);
-        border: 4px solid #FFFFFF;
-        border-radius: 10px;
-        box-shadow: 4px 4px 10px #F0F2FC;
     }
 </style>

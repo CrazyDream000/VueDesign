@@ -2,7 +2,7 @@
 
 *{
   box-sizing: border-box;
-  font-family: 'Alliance No.1';
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
 }
 #app {
@@ -54,7 +54,16 @@ a,
 .f80{
   font-size: 80px;
 }
-.f16{
+.f60{
+  font-size: 60px;
+}
+.f48{
+  font-size: 48px;
+}
+.f32{
+  font-size: 32px;
+}
+.f18{
   font-size: 18px;
 }
 .f16{
@@ -72,6 +81,16 @@ a,
   font-weight: 700;
 }
 
+
+.f-al{
+  text-align: left;
+}
+.f-ac{
+  text-align: center;
+}
+.f-ar{
+  text-align: right;
+}
 /*margin*/
 
 .mt5{
@@ -83,12 +102,89 @@ a,
 .mt15{
   margin-top: 15px;
 }
-.m1{
-  margin-top: 5px;
+.mt20{
+  margin-top: 20px;
 }
-.m1{
-  margin-top: 5px;
+.mt30{
+  margin-top: 30px;
 }
-.m1{
-  margin-top: 5px;
+.mt40{
+  margin-top: 40px;
+}
+
+.ml5{
+  margin-left: 5px;
+}
+.ml10{
+  margin-left: 10px;
+}
+.ml15{
+  margin-left: 15px;
+}
+.ml20{
+  margin-left: 20px;
+}
+.ml30{
+  margin-left: 30px;
+}
+.ml40{
+  margin-left: 40px;
+}
+
+.mr10{
+  margin-right: 10px;
+}
+
+.ma{
+  margin:auto;
+}
+
+.pdr10{
+  padding-right: 10px;
+}
+.pd10{
+  padding: 10px;
+}
+
+.w100{
+  width:100%;
+}
+.w75{
+  width:75%;
+}
+.w50{
+  width:50%;
+}
+.w25{
+  width:176px;
+}
+
+.h100{
+  height:168px;
+}
+
+.h50{
+  height:84px;
+}
+
+.h33{
+  height:56px;
+}
+
+.d-in-r{
+  display: inline-block;
+  float:right;
+}
+
+.d-in-l{
+  display: inline-block;
+  float:l;
+}
+
+.brt{
+  border-top:solid 2px lightgrey;
+}
+
+.brr{
+  border-right:solid 2px lightgrey;
 }
