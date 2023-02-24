@@ -13,6 +13,7 @@
     "@mui/icons-material": "^5.11.9",
     "@mui/material": "^5.11.10",
     "@mui/styled-engine-sc": "^5.11.9",
+    "apexcharts": "^3.37.1",
     "chart": "^0.1.2",
     "chart.js": "^4.2.1",
     "fortawesome": "*",

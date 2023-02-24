@@ -22,7 +22,7 @@
             <div class="layout-caption f60 f-dark-blue">
                 Token Allocation
             </div>
-            <Doughnut class="dougnut mt40" :data="data" :options="options" />
+            <Doughnut class="dougnut mt40 f18" :data="data" :options="options"/>
         </div>
         
   </div>
@@ -34,7 +34,7 @@
         width: 100%;
     }
     .dougnut{
-        height:1000px!important;
+        height:700px!important;
     }
     .layout4-image{
         width:608px;

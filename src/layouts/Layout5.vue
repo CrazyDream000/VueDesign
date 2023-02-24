@@ -1,4 +1,5 @@
-<script>
+<script setup>
+import AreaChart from "../components/AreaChart.vue"
 </script>
 
 <template>
@@ -8,8 +9,10 @@
                 Supply Over Time
             </div>
             <div class="f-row w100">
-                <img class="layout5-image" src="@/assets/Graph2.png"/>
-                <div class="f-col ml40 w100">
+                <div class="w50" style="flex-grow=4">
+                    <AreaChart class="chart"/>
+                </div>
+                <div class="f-col ml40 w100 w50">
                     <div class="f-row">
                         <div class="" style="flex-grow:1"><div class="graph-color"></div></div>
                         <div class="" style="flex-grow:2"><div class="f14 f-light-blue f-ac">25%</div></div>
@@ -64,6 +67,9 @@
     .layout5-image{
         width:796px;
         height:438px;
+    }
+    .chart{
+        height: 400px!important;
     }
     .layout5-content{
         width:1242px;
