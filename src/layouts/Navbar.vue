@@ -1,5 +1,9 @@
 <script setup>
     import HumanButtom from "../components/Button.vue"
+    
+</script>
+<script>
+
 </script>
 
 <template>

@@ -1,4 +1,19 @@
 <script>
+    import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js'
+    import { Doughnut } from 'vue-chartjs'
+    import * as chartConfig from './chartConfig'
+
+    ChartJS.register(ArcElement, Tooltip, Legend)
+
+    export default {
+    name: 'App',
+    components: {
+        Doughnut
+    },
+        data() {
+            return chartConfig
+        }
+    }
 </script>
 
 <template>
@@ -7,8 +22,9 @@
             <div class="layout-caption f60 f-dark-blue">
                 Token Allocation
             </div>
-            <img src="@/assets/Graph1.png" style="margin-top: 81px"/>
+            <Doughnut class="dougnut mt40" :data="data" :options="options" />
         </div>
+        
   </div>
 </template>
 
@@ -16,6 +32,9 @@
     .layout4-container{
         padding: 193px 0px;
         width: 100%;
+    }
+    .dougnut{
+        height:1000px!important;
     }
     .layout4-image{
         width:608px;
