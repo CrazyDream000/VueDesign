@@ -50,16 +50,25 @@
                         <div class="d-in-r"><button class="link-btn ml40 mr10">Polygon</button></div>
                     </div>
                 </div>
-                <div class="f-row f-center mt40">
-                    <div class="audit-item w50 pd10">
-                        <div class="f18 d-in-l "><span>Smart Contract Audit</span></div>
-                        <div class="f32 d-in-r "><span>Loremipsum</span></div>
-                    </div>
-                    <div class="audit-item w50 ml40  pd10">
-                        <div class="f18 d-in-l"><span>Escrow Factory</span></div>
-                        <div class="f32 d-in-r"><span>Loremipsum</span></div>
-                    </div>
+               
+            </div>
+             <div class="f-row f-center mt40">
+                <div class="audit-item w50 pd10" style="padding:20px">
+                    <div class="f18 d-in-l" style="height:100%"><div class=" f-row f-center" style="height:100%">Smart Contract Audit</div></div>
+                    <div class="f32 d-in-r" style="height:100%"><div class=" f-row f-center" style="height:100%">Loremipsum</div></div>
                 </div>
+                <div class="audit-item w50 ml40  pd10" style="padding:20px">
+                    <div class="f18 d-in-l" style="height:100%"><div class=" f-row f-center" style="height:100%">Escrow Factory</div></div>
+                    <div class="f32 d-in-r" style="height:100%"><div class=" f-row f-center" style="height:100%">Loremipsum</div></div>
+                </div>
+            </div>
+            <div class="company-lists f-row f-center">
+                <div class="f18 ftb f-dark-blue f-row f-center w100">Exchanges</div>
+                <div class="f18 ftb f-dark-blue w100 f-row f-center"><img src="@/assets/company1.png" style="width:177px; height:20px"></div>
+                <div class="f18 ftb f-dark-blue w100 f-row f-center"><img src="@/assets/company2.png" style="width:132px; height:46"></div>
+                <div class="f18 ftb f-dark-blue w100 f-row f-center"><img src="@/assets/company3.png" style="width:168px; height:18px"></div>
+                <div class="f18 ftb f-dark-blue w100 f-row f-center"><img src="@/assets/company4.png" style="width:122px; height:33px"></div>
+                <div class="f18 ftb f-dark-blue w100 f-row f-center"><img src="@/assets/company5.png" style="width:109px; height:24px"></div>
             </div>
         </div>
   </div>
@@ -67,13 +76,13 @@
 
 <style scoped>
     .layout2-container{
-        padding-top:143px;
+        padding:143px 0px;
         width: 100%;
         background: linear-gradient(167.14deg, #F0F2FC 9.58%, #FFFFFF 93.46%)!important;
     }
     .layout2-token-detail{
         margin-top: 60px;
-        width:1088px;
+        width:1168px;
         height:248px;
         padding:80px 38px 40px 38px;
         background: #FFFFFF;
@@ -106,5 +115,14 @@
         height:75px;
         background: #FFFFFF;
         border-radius: 10px;
+      cursor:pointer;
+    }
+    .company-lists{
+        margin-top: 69px;
+        width:1168px;
+        height:80px;
+        box-shadow: 4px 4px 10px #e9eaf0;
+        background: #FFFFFF;
+        border-radius: 30px;
     }
 </style>

@@ -13,6 +13,7 @@ defineProps({
 
 <style>
     button{
+        cursor:pointer;
         background: linear-gradient(145.2deg, #F0F2FC -4.32%, #FFFFFF 61.97%);
         border: 4px solid #FFFFFF;
         border-radius: 10px;

@@ -6,6 +6,7 @@
   font-style: normal;
 }
 #app {
+  max-width: 1168px;
   max-width: 1920px;
   margin: 0 auto;
   font-weight: normal;
@@ -178,7 +179,7 @@ a,
 
 .d-in-l{
   display: inline-block;
-  float:l;
+  float:left;
 }
 
 .brt{
