@@ -16,6 +16,10 @@
                 <HumanButtom class="join-btn f-dark-blue f16 ftb" value="Join"/>
             </div>
         </div>
+
+        <div class="mobile-menu-btn">
+            <CoHamburgerMenu/>
+        </div>
   </div>
 </template>
 
