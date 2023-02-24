@@ -17,9 +17,7 @@
             </div>
         </div>
 
-        <div class="mobile-menu-btn">
-            <CoHamburgerMenu/>
-        </div>
+        <button class="mobile-menu-btn d-in-r"> + </button>
   </div>
 </template>
 
@@ -31,6 +29,9 @@
         width:134.23px;
         height:32px;
         display: inline-block;
+    }
+    .mobile-menu-btn{
+
     }
     .navbar-menu-container{
         display: inline-block;
