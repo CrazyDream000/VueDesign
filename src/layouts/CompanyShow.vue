@@ -30,6 +30,24 @@
         background: #F2F2FA;
         border-radius: 40px;
     }
+    @media only screen and (max-width: 1175px) 
+    {
+        .company-show-container{
+            padding: 0px;
+        }
+        .show-background{
+            border-radius: 0px;
+        }
+    }
+    @media only screen and (max-width:704px)
+    {
+        .big-logo{
+            width:100%!important;
+            height:auto!important;
+            left:0px!important;
+            bottom: 0px!important;
+        }
+    }
     .show-caption{
         z-index: 5;
         position: relative;

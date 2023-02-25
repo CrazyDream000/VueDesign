@@ -75,11 +75,18 @@
 </template>
 
 <style scoped>
+    @media only screen and (max-width:1175px)
+    {
+        .layout2-container{
+            display: none!important;
+        }
+    }
     .layout2-container{
         padding:143px 0px;
         width: 100%;
         background: linear-gradient(167.14deg, #F0F2FC 9.58%, #FFFFFF 93.46%)!important;
     }
+    
     .layout2-token-detail{
         margin-top: 60px;
         width:1168px;

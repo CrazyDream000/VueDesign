@@ -4,7 +4,7 @@
 </script>
 <template>
   <div class="layout8-container f-col f-center">
-    <div class="w100" style="padding:0px 225px">
+    <div class="w100 layout8-header" style="padding:0px 225px">
         <div class="f60 f-dark-blue d-in-l ftb">Recent Entries</div>
         <button class="go-blog-btn f16 f-dark-blue d-in-r">Go Blog</button>
     </div>
@@ -62,6 +62,36 @@
 </template>
 
 <style scoped>
+    @media only screen and (max-width:1175px){
+
+        .layout8-header{
+            padding: 0px!important;
+        }        
+        .layout8-content{
+            width: 100%!important;
+            border-radius:0px!important;
+            height: auto!important;
+        }
+        .layout8-view-content{
+          height:auto!important;
+        }
+        .layout8-view{
+            width:100%!important;
+            flex-direction: column!important;
+            justify-content: center;
+            align-items: center;
+        }
+        .card-list-item{
+            width:100%!important;
+            margin:0px!important;
+        }
+        .arrow-container{
+            display: none!important;
+        }
+        .selected-area{
+            width:100%!important;
+        }
+    }
     .layout8-container{
         padding: 0px 0px 100px 0px;
     }

@@ -20,4 +20,19 @@
     .layout1-content{
         width:608px;
     }
+    @media only screen and (max-width: 925px){
+      .layout1-container{
+        flex-direction: column!important;
+        flex-flow:column-reverse;
+      }      
+    }
+    @media only screen and (max-width:608px){
+      .layout1-image{
+        width:100%;
+        height:auto;
+      }
+      .layout1-content{
+        width:100%;
+      }
+    }
 </style>

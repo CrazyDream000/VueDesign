@@ -33,9 +33,14 @@
         padding: 193px 0px;
         width: 100%;
     }
+    @media only screen and (max-width:1242px)
+    {
+        .layout4-content{
+            width:100%!important;
+        }
+    }
     .dougnut{
         height:700px!important;
-        background-image:url("@/assets/HMark.png");
         background-repeat: no-repeat;
         background-position:center;
     }
@@ -45,6 +50,7 @@
     }
     .layout4-content{
         width:1242px;
+        position: relative;
     }
     .layout4-caption{
         padding:81px 0px;

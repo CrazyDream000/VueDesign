@@ -4,7 +4,7 @@
 <template>
   <div class="layout6-container f-row f-center">
     <div class="layout6-content">
-        <div class="f60 f-dark-blue w100 f-ac" style="padding:101px 143px 0px 143px">How do I get HMT?</div>
+        <div class="layout6-caption f60 f-dark-blue w100 f-ac" style="padding:101px 143px 0px 143px">How do I get HMT?</div>
         <div class="lists-view ma">
             <div class="HMT-link-lists f-row f-center">
                 <div class="HMT-list-item f-col f-center">
@@ -38,6 +38,24 @@
         padding: 200px 0px 100px 0px;
         width: 100%;
     }
+    
+    @media only screen and (max-width:1175px){
+        .layout6-content{
+            width: 100%!important;
+            height:auto!important;
+            border-radius:0px!important;
+            overflow: hidden!important;
+        }
+        .lists-view{
+            height:auto!important;
+            width:100vw!important;
+            overflow-x: scroll!important;
+        }
+        .layout6-caption {
+            font-size:50px;
+        }
+    }
+
     .layout6-content{
         width:1472px;
         height:427px;
@@ -47,13 +65,11 @@
     .lists-view{
         width:1272px;
         height:320px;
-        overflow: hidden;
     }
     .HMT-link-lists{
         width:1272px;
         margin-top:80px;
         padding:0px 100px 100px 100px;
-        overflow-x:scroll;
     }
     .HMT-list-item{
         margin:0px 15px;

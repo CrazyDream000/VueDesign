@@ -1,5 +1,5 @@
 export const data = {
-  labels: ['                       January', 'February', 'March', 'April', 'May', 'June', 'July'],
+  labels: ['                      January', 'February', 'March', 'April', 'May', 'June', 'July'],
   datasets: [
     {
       label: 'Data 1',

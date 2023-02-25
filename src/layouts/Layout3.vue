@@ -46,6 +46,17 @@
         background: #F2F2FA;
         border-radius: 40px;
     }
+    
+    @media only screen and (max-width:1175px)
+    {
+        .layout3-container{
+            padding:0px;
+        }
+        .layout3-content{
+            width:100%;
+            border-radius: 0px;
+        }
+    }
     .company-link-lists{
         padding:0px 100px 100px 100px;
         display: flex;

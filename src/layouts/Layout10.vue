@@ -4,7 +4,7 @@
 
 <template>
   <div class="layout10-container">
-        <div class="d-in-l">
+        <div class="l10-left d-in-l">
             <div class="f-col">
                 <div class="f24 f-dark-blue">Get HUMAN news and updates</div>
                 <div class="f-row mt30">
@@ -18,7 +18,7 @@
                 <div class="f16 f-dark-blue mt10">By subscribing you agree to our<span class="ftb"> Privacy Policy</span></div>
             </div>
         </div>
-        <div class="d-in-r">
+        <div class="l10-right d-in-r">
             <div class="f-row f-center h100">
                 <img src="@/assets/linker1.png"/>
                 <img class="ml20" src="@/assets/linker2.png"/>
@@ -31,6 +31,30 @@
 </template>
 
 <style scoped>
+    @media only screen and (max-width:1450px){
+        .layout10-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding:100px 50px 0px 50px!important;
+        }
+        .l10-left{
+            width:100%;
+            justify-content: center;
+            align-items: center;
+            display: flex!important;
+        }
+        .l10-right{
+            width:100%;
+            justify-content: center;
+            align-items: center;
+            display: flex!important;
+        }
+        .comment-container{
+            width:300px!important;
+        }
+    }
     .layout10-container{
         width:100%;
         padding:100px 229px 200px 229px;
