@@ -14,43 +14,18 @@ import AreaChart from "../components/AreaChart.vue"
                 </div>
                 <div class="f-col ml40 w100 w50">
                     <div class="f-row">
-                        <div class="" style="flex-grow:1"><div class="graph-color"></div></div>
+                        <div class="" style="flex-grow:1"><div class="graph-color" style="background-color:#f8797964"></div></div>
                         <div class="" style="flex-grow:2"><div class="f14 f-light-blue f-ac">25%</div></div>
                         <div class="" style="flex-grow:5"><div class="f14 f-light-blue f-ac">Operating Trust Unlocked Tokens</div></div>
                     </div>
                     <div class="f-row mt20">
-                        <div class="" style="flex-grow:1"><div class="graph-color"></div></div>
-                        <div class="" style="flex-grow:2"><div class="f14 f-light-blue f-ac">25%</div></div>
+                        <div class="" style="flex-grow:1"><div class="graph-color" style="background-color:#3d793f64"></div></div>
+                        <div class="" style="flex-grow:2"><div class="f14 f-light-blue f-ac">34%</div></div>
                         <div class="" style="flex-grow:5"><div class="f14 f-light-blue f-ac">Operating Trust Unlocked Tokens</div></div>
                     </div>
                     <div class="f-row mt20">
-                        <div class="" style="flex-grow:1"><div class="graph-color"></div></div>
-                        <div class="" style="flex-grow:2"><div class="f14 f-light-blue f-ac">25%</div></div>
-                        <div class="" style="flex-grow:5"><div class="f14 f-light-blue f-ac">Operating Trust Unlocked Tokens</div></div>
-                    </div>
-                    <div class="f-row mt20">
-                        <div class="" style="flex-grow:1"><div class="graph-color"></div></div>
-                        <div class="" style="flex-grow:2"><div class="f14 f-light-blue f-ac">25%</div></div>
-                        <div class="" style="flex-grow:5"><div class="f14 f-light-blue f-ac">Operating Trust Unlocked Tokens</div></div>
-                    </div>
-                    <div class="f-row mt20">
-                        <div class="" style="flex-grow:1"><div class="graph-color"></div></div>
-                        <div class="" style="flex-grow:2"><div class="f14 f-light-blue f-ac">25%</div></div>
-                        <div class="" style="flex-grow:5"><div class="f14 f-light-blue f-ac">Operating Trust Unlocked Tokens</div></div>
-                    </div>
-                    <div class="f-row mt20">
-                        <div class="" style="flex-grow:1"><div class="graph-color"></div></div>
-                        <div class="" style="flex-grow:2"><div class="f14 f-light-blue f-ac">25%</div></div>
-                        <div class="" style="flex-grow:5"><div class="f14 f-light-blue f-ac">Operating Trust Unlocked Tokens</div></div>
-                    </div>
-                    <div class="f-row mt20">
-                        <div class="" style="flex-grow:1"><div class="graph-color"></div></div>
-                        <div class="" style="flex-grow:2"><div class="f14 f-light-blue f-ac">25%</div></div>
-                        <div class="" style="flex-grow:5"><div class="f14 f-light-blue f-ac">Operating Trust Unlocked Tokens</div></div>
-                    </div>
-                    <div class="f-row mt20">
-                        <div class="" style="flex-grow:1"><div class="graph-color"></div></div>
-                        <div class="" style="flex-grow:2"><div class="f14 f-light-blue f-ac">25%</div></div>
+                        <div class="" style="flex-grow:1"><div class="graph-color" style="background-color:#2679f264"></div></div>
+                        <div class="" style="flex-grow:2"><div class="f14 f-light-blue f-ac">67%</div></div>
                         <div class="" style="flex-grow:5"><div class="f14 f-light-blue f-ac">Operating Trust Unlocked Tokens</div></div>
                     </div>
                 </div>

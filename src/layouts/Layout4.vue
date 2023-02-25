@@ -35,6 +35,9 @@
     }
     .dougnut{
         height:700px!important;
+        background-image:url("@/assets/HMark.png");
+        background-repeat: no-repeat;
+        background-position:center;
     }
     .layout4-image{
         width:608px;
